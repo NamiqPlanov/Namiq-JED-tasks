@@ -1,0 +1,17 @@
+body{
+   background-color: rgb(24, 143, 24);
+   margin: 0;
+}
+section{
+   background-color: rgb(245, 242, 239);
+   
+}
+section{
+   text-align: center;
+   position: relative;
+   top: 50px;
+   padding: 20px;
+   width: 20%;
+   margin: 10rem auto 0 auto;
+}
+   
