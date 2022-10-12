@@ -1,7 +1,21 @@
 body{
-    background-color: rgb(6, 6, 138);
-    margin: 0px;
+    margin: 50px;
+    background-color: rgb(1, 11, 146);
 }
-.picture{
+.container{
+    float: left;
+    margin: 0 10px;
+     border: 1px solid green;
+     box-sizing: border-box;
+     
+}
+p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.container>img{
     width: 200px;
 }
+
+    
