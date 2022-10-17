@@ -1,4 +1,8 @@
 p::after{
-    content:"☀";
-    
+ content:"☀";    
+}
+
+p::selection {
+    background-color: red;
+    color: yellow;
 }
