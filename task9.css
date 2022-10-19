@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgba(226, 9, 9, 0.795);
+}
+form{
+    background-color:white ;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: calc(50vh - 150px);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+h1{
+    color:rgba(226, 9, 9, 0.795) ;
+}
+div>input{
+    font-size: 25px;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px 0 ;
+    border: 1px solid gray;
+    
+
+}
+.submit{
+    background-color:rgba(226, 9, 9, 0.795) ;
+    font-size: 25px;
+    width: 300px;
+    
+}
+input:focus{
+    border: 2px solid rgba(226, 9, 9, 0.795);
+    outline: none;
+}
+i{
+    color: rgba(167, 157, 157, 0.932);
+   
+}
+span{
+    position: absolute;
+    right: 45px;
+    top: 10px;
+    font-size: 25px;
+}
+div{
+    position: relative;
+}
