@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(226, 215, 215);
+    overflow:hidden;
+}
+
+div{
+   position: relative;
+    left: 90px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 45px;
+    float: left;
+}
+.b{
+    box-shadow: 0 1px 2px rgb(37, 36, 36);
+}
+.c{
+    box-shadow: 0 2px 3px rgb(37, 36, 36);
+}
+.d{
+    box-shadow: 0 4px 6px rgb(37, 36, 36);
+}
+.e{
+    box-shadow: 0 5px 14px rgb(37, 36, 36);
+}
+.f{
+    box-shadow: 0 8px 20px rgb(37, 36, 36);
+}
