@@ -6,24 +6,22 @@ body{
 div{
    position: relative;
     left: 90px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     margin: 45px;
-    float: left;
+   
+    
 }
-.b{
-    box-shadow: 0 1px 2px rgb(37, 36, 36);
+.ab{
+    display: inline-block;
+    margin: 20px;
 }
-.c{
-    box-shadow: 0 2px 3px rgb(37, 36, 36);
+.cd{
+    display: inline-block;
+    margin: 20px;
 }
-.d{
-    box-shadow: 0 4px 6px rgb(37, 36, 36);
-}
-.e{
-    box-shadow: 0 5px 14px rgb(37, 36, 36);
-}
-.f{
-    box-shadow: 0 8px 20px rgb(37, 36, 36);
+.ef{
+    display: inline-block;
+    margin: 20px;
 }
