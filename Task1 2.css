@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+  background-color: rgb(54, 2, 54);
+  min-height: 100vh;
+}
+.grid-container{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(autofill,minmax(200px,1fr));
+    column-gap: 25px;
+    row-gap: 35px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.p1{
+    grid-column: 1/4;
+}
+
+
