@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.packman{
+    margin: 50px;
+    
+   
+}
+.packman-top{
+     background-color: yellow;
+    width:200px;
+    height: 100px;
+    border-top-left-radius: 90px;
+    border-top-right-radius:90px;
+    position: relative;
+    animation: yuxari 1s ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+.packman-bottom{
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius:90px;
+    border-bottom-right-radius:90px;
+    animation:asagi 1s ease-in-out;
+    animation-iteration-count: infinite ;
+    
+}
+.comma{
+    position: relative;
+    left: 100px;
+    font-size: 70px;
+    top: -10px;
+}
+@keyframes yuxari{
+    0%,100%{
+       transform: rotate(0);
+    }
+    30%{
+        transform: rotate(-40deg) ;
+    }
+}
+@keyframes asagi{
+    0%,100%{
+        transform:rotate(0)
+    }
+    30%{
+        transform: rotate(40deg);
+    }
+}
