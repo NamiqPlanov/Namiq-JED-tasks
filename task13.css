@@ -38,18 +38,24 @@ body{
     top: 30px;
 }
 @keyframes yuxari{
-    0%,100%{
+    0%{
        transform: rotate(0);
     }
     30%{
         transform: rotate(-40deg) ;
     }
+    100%{
+        transform: rotate(0);
+    }
 }
 @keyframes asagi{
-    0%,100%{
-        transform:rotate(0)
+    0%{
+        transform:rotate(0);
     }
     30%{
         transform: rotate(40deg);
+    }
+    100%{
+        trasnform:rotate(0);
     }
 }
